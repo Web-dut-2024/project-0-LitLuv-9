@@ -1,0 +1,55 @@
+/* 设置整个页面的背景颜色和字体 */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* 设置页面标题样式 */
+h1 {
+    font-size: 36px;
+}
+
+/* 设置超链接样式 */
+a {
+    text-decoration: none;
+    color: #4285f4;
+    margin: 10px;
+    float: right;
+}
+
+/* 设置搜索框样式 */
+form {
+    margin: 30px auto;
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid #4285f4;
+    border-radius: 25px;
+    background-color: #fff;
+}
+
+/* 设置搜索框输入样式 */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    max-width: 200px;
+}
+
+/* 设置搜索按钮样式 */
+input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* 调整搜索按钮在搜索框下方 */
+form input[type="submit"] {
+    margin-top: 20px;
+}

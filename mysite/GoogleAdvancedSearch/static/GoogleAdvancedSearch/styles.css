@@ -1,0 +1,45 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* 设置页面标题样式 */
+h1 {
+    font-size: 36px;
+}
+
+/* 设置超链接样式 */
+a {
+    text-decoration: none;
+    color: #4285f4;
+    margin: 10px;
+    float: right;
+}
+
+/* Set font and text alignment for labels and input fields */
+label, input {
+    font-family: Arial, sans-serif;
+    text-align: left;
+}
+
+/* Stack the labels and input fields vertically */
+label, input {
+    display: block;
+    margin: 10px 0; /* Add spacing between each label-input pair */
+}
+
+/* Style the "Google Search" button to match Google's style */
+input[type="submit"] {
+    background-color: #4285f4; /* Blue background color */
+    color: #ffffff; /* White text color */
+    border: none; /* Remove the button border */
+    padding: 10px 20px; /* Add padding to the button */
+    cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+/* Center the "Google Search" button */
+input[type="submit"] {
+    margin: 20px auto;
+    display: block;
+}

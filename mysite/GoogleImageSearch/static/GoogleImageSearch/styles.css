@@ -1,0 +1,59 @@
+/* 设置整个页面的背景颜色和字体 */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* 设置页面标题样式 */
+h1 {
+    font-size: 36px;
+}
+
+/* 设置超链接样式 */
+a {
+    text-decoration: none;
+    color: #4285f4;
+    margin: 10px;
+    float: right;
+}
+
+/* Center the search box and button */
+.search-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Style the search box and button */
+.search-box, .search-button {
+    border-radius: 20px;
+}
+
+.search-box {
+    max-width: 200px;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #4285f4;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.search-button {
+    background-color: #4285f4;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+/* 调整搜索按钮在搜索框右边 */
+.search-button {
+    margin-left: 10px;
+}
+
+/* 设置搜索按钮在搜索框下方 */
+.search-container .search-button {
+    margin-top: 20px;
+}
